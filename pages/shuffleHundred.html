@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="/js/shuffle.js"></script>
+  <link rel="stylesheet" href="/assets/style/shuffle.css">
+  <title>Master Mind</title>
+</head>
+
+<body>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg border-bottom navbar-light sticky-top border-bottom shadow-sm bg-body rounded"
+ style="background-color: #fff;">
+ <div class="container">
+     <a class="navbar-brand" href="/home.html">
+         <img src="../assets/images/mamlogo.png" height="80" width="100%" alt="" />
+     </a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+         aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-color navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+             <li class="nav-item">
+                 <a class="nav-link  fw-bold" style="color: #32325c;" aria-current="page"
+                     href="/home.html">HOME</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link fw-bold" style="color: #32325c;" aria-current="page"
+                     href="/home.html">PUZZFIRE</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link fw-bold" style="color: #32325c;" aria-current="page"
+                     href="/home.html">MIND BLOGGER</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link fw-bold" style="color: #32325c;" aria-current="page"
+                     href="/home.html">MUSKETEERS s</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link fw-bold" style="color: #32325c;" aria-current="page"
+                     href="/home.html">FEEDBACK</a>
+             </li>
+         </ul>
+     </div>
+ </div>
+</nav>
+
+
+  <!-- Shuffle Component One -->
+  <div class="container mainCon w-50 p-4 border rounded mt-4 shadow text-align-center">
+   <h3 class="container">Norton</h3>
+    <!-- (B) THE LIST -->
+    <ul id="sortlist">
+      <li>1. It is obvious from the above that the Commission has accorded the highest priority to securing speedy justice to women.</li>
+      <li>2. These members continue to pursue their mandated activities, namely review of legislation, intervention in specific individual complaints of atrocities and denial of rights. 
+      </li>
+      <li>3. The functions assigned to the Commission, as per the Act, are wide and varied covering almost all facts of issues relating to safeguarding women's rights and promotion. 
+      </li>
+      <li>4. The National Commission for Women was set up on 31st January 1992 in pursuance of the National Commission for Women Act 1990.
+      </li>
+      <li>5. Towards the end of speedy justice to women, the Commission is organizing Parivarik Mahila Lok Adalats offering counselling in family disputes and conducting training programmes for creating legal awareness among women.
+      </li>
+      <li>6. They also suggest remedial action to safeguard the interest of women to the appropriate authorities.
+      </li>
+      <li>7. To carry out these functions the Commission has a chairman, five members and a Member Secretary, all nominated by the Central Government.
+      </li>
+    </ul>
+  </div>
+  <div class="d-grid gap-2 col-3 mb-2 mt-4 mx-auto">
+    <button type="button" class="btn btn-outline-warning btn-submit" data-bs-toggle="modal"
+      data-bs-target="#exampleModalCenter">
+      SUBMIT
+    </button>
+  </div>
+  <!-- (C) INIT ON PAGE LOAD -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      slist(document.getElementById("sortlist"));
+    });
+  </script>
+
+  <!-- Shuffle Component Two -->
+  <div class="container mainCon w-50 p-4 border rounded mt-4 shadow text-align-center">
+    <h3 class="container">Vipre</h3>
+    <!-- (B) THE LIST -->
+    <ul id="sortlist2">
+      <li>1. Here I would like to echo the words of former President of India, Dr. A.P.J. Abdul Kalam, "A nation's progress depends about how its people think."
+      </li>
+      <li>2. We have to act with conviction to realize our dream.
+      </li>
+      <li>3. We Indians have to think as a nation and dream to transform our country into a super power.
+      </li>
+      <li>4. It is very unfortunate that economically resurgent India still remains home to the world's largest population of poor, hungry and illiterate people.
+      </li>
+      <li>5. Besides these, rapidly increasing population, rampant corruption, exploitation of women, child labour, communalism are some of the issues which need to be worked upon.
+      </li>
+      <li>6. Tragically, hunger remains India's biggest lingering problem with an estimated 7000 Indians dying of hunger every single day.
+      </li>
+      <li>7. Along with chronic hunger, deep poverty and high illiteracy also continue to blight the lives of millions of our people.
+      </li>
+    </ul>
+  </div>
+  <div class="d-grid gap-2 col-3 mb-2 mt-4 mx-auto">
+    <button type="button" class="btn btn-outline-warning btn-submit" data-bs-toggle="modal"
+      data-bs-target="#exampleModalCenter">
+      SUBMIT
+    </button>
+  </div>
+  <!-- (C) INIT ON PAGE LOAD -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      slist(document.getElementById("sortlist2"));
+    });
+  </script>
+
+  <!-- Shuffle Component Three -->
+  <div class="container mainCon w-50 p-4 border rounded mt-4 shadow text-align-center">
+    <h3 class="container">Kaspersky</h3>
+    <!-- (B) THE LIST -->
+    <ul id="sortlist3">
+      <li>1. He accumulates some capital and goes into a business venture with his sons.
+      </li>
+      <li>2. In order to increase his salary he works through the night.
+      </li>
+      <li>3. They open a shop to create men's garments.
+      </li>
+      <li>4. Later he takes the garments and sells it on New York's streets.
+      </li>
+      <li>5. He takes garments from the sweatshop to finish at home with the help of his wife and older children at night.
+      </li>
+      <li>6. A Russian tailor artisan comes to America, takes to the needle trade, works in sweetshop for a small salary.
+      </li>
+    </ul>
+  </div>
+  <div class="d-grid gap-2 col-3 mb-2 mt-4 mx-auto">
+    <button type="button" class="btn btn-outline-warning btn-submit" data-bs-toggle="modal"
+      data-bs-target="#exampleModalCenter">
+      SUBMIT
+    </button>
+  </div>
+  <!-- (C) INIT ON PAGE LOAD -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      slist(document.getElementById("sortlist3"));
+    });
+  </script>
+
+  <!-- Shuffle Component Four -->
+  <div class="container mainCon w-50 p-4 border rounded mt-4 shadow text-align-center">
+    <h3 class=" container">McAffee</h3> 
+    <!-- (B) THE LIST -->
+    <ul id="sortlist4">
+      <li>1. Dozens more were missing.
+      </li>
+      <li>2. The deaths occurred in the cities of Guaruja, Santos and Sao Vicente of Sao Paulo state, with the former hardest hit, according to a statement from its civil defence office.
+      </li>
+      <li>3. The ban led to plummeting trade volumes and exchanges shutting their businesses.
+      </li>
+      <li>4. The office estimates 200 people have been displaced in Guaruja.
+      </li>
+      <li>5. A storm that pummelled Brazil's south- eastern coast early Tuesday caused landslides and killed at least 16 people.
+      </li>
+    </ul>
+  </div>
+  <div class="d-grid gap-2 col-3 mb-2 mt-4 mx-auto">
+    <button type="button" class="btn btn-outline-warning btn-submit" data-bs-toggle="modal"
+      data-bs-target="#exampleModalCenter">
+      SUBMIT
+    </button>
+  </div>
+  <!-- (C) INIT ON PAGE LOAD -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      slist(document.getElementById("sortlist4"));
+    });
+  </script>
+
+  <!-- Shuffle Component Five -->
+  <div class="container mainCon w-50 p-4 border rounded mt-4 shadow text-align-center">
+    <h3 class=" container">Twister</h3> 
+    <!-- (B) THE LIST -->
+    <ul id="sortlist5">
+      <li>1. One hot day, an ant was searching for some water, after walking around for some time, she came to a spring.
+      </li>
+      <li>2. While making her way up, she slipped and fell into the water
+      </li>
+      <li>3. To reach the spring, she had to climb up a blade of grass
+      </li>
+      <li>4. She could have drowned if a dove up a nearby tree had not seen her
+      </li>
+      <li>5. Seeing that the ant was in trouble, the dove quickly plucked a leaf and dropped it into the water near the struggling ant
+      </li>
+      <li>6. The ant moved towards the leaf and climbed up onto it, and the leaf drifted to dry ground, and the ant jumped out, and she was safe at last.
+      </li>
+    </ul>
+  </div>
+  <div class="d-grid gap-2 col-3 mb-2 mt-4 mx-auto">
+    <button type="button" class="btn btn-outline-warning btn-submit" data-bs-toggle="modal"
+      data-bs-target="#exampleModalCenter">
+      SUBMIT
+    </button>
+  </div>
+  <!-- (C) INIT ON PAGE LOAD -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      slist(document.getElementById("sortlist5"));
+    });
+  </script>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h5 class="modal-title" id="exampleModalLongTitle">
+            Fantastic! You are genius</h5>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body h4">
+          Connect with volunteers for further assistance
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-md btn-warning text-white" data-bs-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="mt-4" style="background-color: white;">
+    <footer class="bg-light text-center  border-top text-lg-start p-3">
+      <div class="text-center rwt-txt-dark-blue ">
+        &copy; 2022, Designed and Developed by
+        <a href="https://www.linkedin.com/in/vipul-jujar-a36497189" target="blank"
+          class="foot-link text-decoration-none fw-bold"> Vipul Jujar</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

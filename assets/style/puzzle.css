@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #3BB2F1 ;
+    color: #32325c;
+}
+
+/* blue bg */
+.oneCard{
+  background-color: #3BB2F1;
+}
+
+#board {
+    width: 320px;
+    height: 320px;
+    border: 2px solid #32325c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 hsla(231, 71%, 63%, 0.502);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 79px;
+    height: 79px;
+    border: 0.5px solid rgb(170, 234, 255);
+}
+
+
+#pieces {
+    /* width: 100%;
+    height: 100%;
+    border: 2px solid purple;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; */
+}
+
+#pieces img {
+    width: 79px;
+    height: 79px;
+    border: 0.5px solid lightblue;
+}
+  
+  .text-inverse {
+    text-align: center;
+  } 
+
+.turns{
+    color: #fff;
+}
+
+
+.inf-head{
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 28px;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.app {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.radio {
+  display: none;
+}
+.radio ~ span {
+  font-size: 3rem;
+  filter: grayscale(100);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.radio:checked ~ span {
+  filter: grayscale(0);
+  font-size: 4rem;
+}

@@ -1,0 +1,84 @@
+body {
+    counter-reset: crossword-row-counter;
+    background-color: #3BB2F1 ;
+    color: #32325c;
+  font-family: sans-serif;  
+
+} 
+.row-number {
+    font-size: 12px;
+    float: left;
+    counter-increment: crossword-row-counter; 
+}
+
+.row-number::after {
+    content: counter(crossword-row-counter);
+    z-index: 100;
+    position: absolute;
+    padding: 3px;
+}
+
+.crossword-letter {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-left: -2px;
+    float: left;
+
+    text-transform: uppercase;
+}
+
+.crossword-letter:first-child {
+    margin: 0px;
+}
+
+.empty-letter {
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+    float: left; 
+}
+
+
+.crossword-letter:focus {
+    background-color: #f1e7ee;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.cross-row {
+    clear: both;
+}
+
+.cross-row .crossword-letter { 
+}
+
+.good input {
+    background-color: #ffdd92;
+}
+
+.bad input {
+    background-color: #f90e3a;
+}
+ 
+.main-highlighted {
+    animation: myanim 1s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myanim {
+    from {
+        background-color: #acedf3;
+        font-weight: normal;
+    }
+    to {
+        background-color: #266ee9;
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+    }
+} 
+ 
